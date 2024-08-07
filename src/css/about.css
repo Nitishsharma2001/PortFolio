@@ -1,0 +1,245 @@
+/* .about-section{
+    background-color: #ecebeb;
+}
+.about {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about span {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    width: 70vw;
+
+}
+
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    padding: 7px;
+    margin: 7px;
+}
+
+.about-info {
+    width: 30vw;
+    word-spacing: 10px;
+    text-decoration: none;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-info span {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.about-skills {
+    width: 35vw;
+    font-size: 20px;
+}
+
+.about-skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-skills li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(218, 218, 218);
+    
+}
+.btn {
+    font-size: 20px;
+}
+
+.btn button {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7843e9;
+    width: 8vw;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+}
+
+.btn button:hover {
+    box-shadow: 8px 4px 4px rgb(204, 204, 204);
+    scale: 1.01;
+} */
+
+
+.about-section {
+    background-color: #ecebeb;
+}
+
+.about {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about span {
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    width: 70vw;
+}
+
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    padding: 7px;
+    margin: 7px;
+}
+
+.about-info {
+    width: 30vw;
+    word-spacing: 10px;
+    text-decoration: none;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-info span {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.about-skills {
+    width: 35vw;
+    font-size: 20px;
+}
+
+.about-skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-skills li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    background-color: rgb(218, 218, 218);
+}
+
+.btn {
+    font-size: 20px;
+}
+
+.btn button {
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7843e9;
+    width: 8vw;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+}
+
+.btn button:hover {
+    box-shadow: 8px 4px 4px rgb(204, 204, 204);
+    scale: 1.01;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .about {
+        height: auto;
+        padding: 20px;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about span {
+        font-size: 20px;
+        width: 90vw;
+    }
+
+    .about-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-info,
+    .about-skills {
+        width: 90vw;
+    }
+
+    .about-info span,
+    .about-skills {
+        font-size: 18px;
+    }
+
+    .btn button {
+        width: 60vw;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about h1 {
+        font-size: 40px;
+    }
+
+    .about span {
+        font-size: 18px;
+    }
+
+    .about-info span,
+    .about-skills {
+        font-size: 16px;
+    }
+
+    .btn button {
+        width: 80vw;
+        font-size: 16px;
+    }
+}

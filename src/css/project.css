@@ -1,0 +1,198 @@
+/* .btn {
+    font-size: 20px;
+}
+.project{
+    margin: 10px;
+    padding: 10px;
+    gap: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7843e9;
+    width: 10vw;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+}
+
+.btn button:hover {
+    box-shadow: 8px 4px 4px rgb(204, 204, 204);
+    scale: 1.01;
+}
+.project-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 45vh;
+    width: 35vw;
+}
+.info{
+    width: 35vw;
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    text-decoration: none;
+    word-spacing: 10px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
+    color: grey;
+}
+.project-heading{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.project-heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 4px solid  #7843e9;
+
+}
+.project-heading span{
+    font-size: larger;
+} */
+
+.btn {
+    font-size: 20px;
+}
+
+.project {
+    margin: 10px;
+    padding: 10px;
+    gap: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #7843e9;
+    width: 10vw;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+}
+
+.btn button:hover {
+    box-shadow: 8px 4px 4px rgb(204, 204, 204);
+    scale: 1.01;
+}
+
+.project-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 45vh;
+    width: 35vw;
+    object-fit: cover;
+}
+
+.info {
+    width: 35vw;
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    text-decoration: none;
+    word-spacing: 10px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: 500;
+    color: grey;
+}
+
+.project-heading {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project-heading h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 4px solid #7843e9;
+}
+
+.project-heading span {
+    font-size: larger;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .btn button {
+        font-size: 18px;
+        width: 30vw;
+    }
+
+    img {
+        height: 35vh;
+        width: 50vw;
+    }
+
+    .info {
+        width: 50vw;
+        font-size: 15px;
+    }
+
+    .project-heading h1 {
+        font-size: 30px;
+    }
+
+    .project-heading span {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn button {
+        font-size: 16px;
+        width: 50vw;
+    }
+
+    img {
+        height: 25vh;
+        width: 70vw;
+    }
+
+    .info {
+        width: 70vw;
+        font-size: 14px;
+    }
+
+    .project-heading h1 {
+        font-size: 24px;
+    }
+
+    .project-heading span {
+        font-size: small;
+    }
+}

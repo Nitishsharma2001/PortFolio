@@ -76,7 +76,7 @@ function App() {
     <div className="App">
       <Navbar scrollToSection={scrollToSection} />
       <div ref={homeRef} id="home">
-        <Home className="home" />
+        <Home className="home" scrollToSection={scrollToSection} />
       </div>
       <Sidebar></Sidebar>
       <div ref={aboutRef} id="about">

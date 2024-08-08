@@ -14,14 +14,16 @@ function Footer() {
                         <h1>Social</h1>
                         <ul>
                             {social.map((item) => (
-                                <li key={item.id} className='footer-s'>
-                                    <img src={item.icon} alt={`${item.id} icon`} />
-                                </li>
+                                <a href={item.url} target="_blank">
+                                    <li key={item.id} className='footer-s'>
+                                        <img src={item.icon} alt={`${item.id} icon`} />
+                                    </li>
+                                </a>
                             ))}
                         </ul>
                     </div>
                 </div>
-            
+
                 <div className='copyright'>
                     <span>© Copyright 2024 . Made by Nitish Sharama</span>
                 </div>

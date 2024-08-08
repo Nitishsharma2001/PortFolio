@@ -14,7 +14,7 @@ function Projects() {
                         <div><img src={item.url}></img></div>
                         <div><h1>{item.title}</h1>
                             <span className='info'>{item.des}</span>
-                            <span className='btn'><button>CASE STUDY</button></span>
+                            <span className='btn'><button><a href={item.link} target='_blank'>Link</a></button></span>
                         </div>
                     </div>
                 ))}

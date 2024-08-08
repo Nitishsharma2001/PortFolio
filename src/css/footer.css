@@ -48,37 +48,52 @@
 .footer {
     background-color: #000000;
     color: white;
-    height: 30vh;
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 13vh;
+    gap: 5vh;
+    /* Further reduced gap */
+    padding: 10px;
 }
 
 .footer-div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
 }
 
 .footer-info {
-    width: 30vw;
-    word-spacing: 7px;
+    width: 100%;
+    /* Take full width */
+    word-spacing: 5px;
     display: flex;
-    text-align: start;
-    justify-self: start;
-    align-items: start;
+    text-align: center;
+    /* Center-align text */
+    justify-content: center;
+    /* Center justify */
+    align-items: center;
     flex-direction: column;
+    font-size: 0.8rem;
+    /* Reduced base font size */
 }
 
 .footer-social {
-    width: 30vw;
+    width: 100%;
+    /* Take full width */
+    text-align: center;
+    /* Center-align content */
 }
-
+.footer-s{
+  cursor: pointer;
+}
 .footer-s img {
     height: 3vh;
-    width: 4vw;
+    width: 10vw;
+    /* Increase width slightly */
     filter: invert(1);
     object-fit: contain;
     object-position: center;
@@ -89,6 +104,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    gap: 10px;
+    /* Add gap between items */
 }
 
 .copyright {
@@ -96,47 +115,51 @@
     justify-content: center;
     align-items: center;
     border-top: 1px solid grey;
+    font-size: 0.7rem;
+    /* Reduced font size */
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
 }
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
-    .footer {
-        height: auto;
-        gap: 5vh;
-    }
 
     .footer-info,
     .footer-social {
-        width: 80vw;
-        text-align: center;
-        align-items: center;
+        width: 90%;
+        /* Ensure width is reduced for smaller screens */
+        font-size: 0.7rem;
+        /* Further reduce font size */
     }
 
     .footer-s img {
-        width: 10vw;
+        width: 12vw;
+        /* Increase image size slightly */
     }
 }
 
 @media (max-width: 480px) {
-    .footer {
-        height: auto;
-        gap: 3vh;
-    }
 
     .footer-info,
     .footer-social {
-        width: 90vw;
-        text-align: center;
-        align-items: center;
+        width: 100%;
+        /* Full width on smallest screens */
+        font-size: 0.65rem;
+        /* Further reduced font size */
     }
 
     .footer-s img {
         width: 15vw;
+        /* Increase image size */
     }
 
     .copyright {
-        padding: 10px;
-        flex-direction: column;
-        gap: 10px;
+        font-size: 0.6rem;
+        /* Reduce font size further */
+        padding: 5px;
+        /* Reduce padding */
+        text-align: center;
+        /* Ensure text is centered */
     }
 }

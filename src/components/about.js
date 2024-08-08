@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/about.css'
 function About() {
+    const handleClick = () => {
+        window.location.href = 'mailto:nitishsharma7528008097@gmail.com';
+    };
     return (
         <>
             <section className='about-section'>
@@ -12,13 +15,9 @@ function About() {
                     <div className='about-info'>
                         <h1>Get to know me!</h1>
                         <span>
-                            I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
-
-                            I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming
-
-                            I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                            "I'm a Front-End Focused Web Developer, passionate about building and managing the front end of websites and web applications that contribute to the overall success of the product. As a fresher with a solid foundation in both software and hardware, I enjoy sharing what I’ve learned in web development to help others in the dev community. You can explore my projects on GitHub and connect with me on LinkedIn to stay updated with useful content related to web development and programming. I'm open to job opportunities where I can contribute, learn, and grow. If you have an opportunity that aligns with my skills and interests, feel free to reach out!"
                         </span>
-                        <span className='btn'><button>Contact</button></span>
+                        <span className='btn'><button onClick={handleClick}>Contact</button></span>
                     </div>
                     <div className='about-skills'>
                         <h1>My Skills</h1>

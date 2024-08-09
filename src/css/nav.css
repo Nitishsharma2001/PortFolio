@@ -138,8 +138,8 @@ nav {
     }
 
     .logo img {
-        height: 6vh;
-        width: 8vw;
+        height: 13vh;
+        width: 15vw;
     }
 
     .logo {
@@ -184,8 +184,13 @@ nav {
     }
 
     .logo img {
-        height: 5vh;
-        width: 10vw;
+        width: 16vw;
+        /* Same value for width and height */
+        height: 16vw;
+        /* Same value for width and height */
+        border-radius: 50%;
+        /* Ensures a perfect circle */
+        object-fit: cover;
     }
 
     .logo {

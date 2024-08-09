@@ -1,88 +1,3 @@
-/* .contact {
-    background: linear-gradient( to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('../assets/dbg.svg');
-    background-position: center;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.contact-card {
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 30px;
-    max-width: 500px;
-    width: 100%;
-    margin: 20px;
-}
-
-.Contact-header {
-    margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.Contact-header h1 {
-    font-size: 32px;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-bottom: 2px solid #7843e9;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
-.Contact-header span {
-    font-size: 18px;
-    color: #666;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.contact-form div {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form span {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.contact-form button {
-    background-color: #7843e9;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.contact-form button:hover {
-    background-color: #5a32b8;
-} */
-
 
 
 .contact {
@@ -170,7 +85,7 @@
     background-color: #5a32b8;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
     .contact-card {
         padding: 20px;
@@ -199,11 +114,11 @@
 @media (max-width: 480px) {
     .contact-card {
         padding: 15px;
-        max-width: 95vw;
+        max-width: 97vw;
     }
 
     .Contact-header h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .Contact-header span {
@@ -214,6 +129,14 @@
     .contact-form input,
     .contact-form textarea {
         font-size: 12px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     .contact-form button {

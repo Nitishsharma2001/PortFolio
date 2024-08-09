@@ -19,19 +19,23 @@ function About() {
                         </span>
                         <span className='btn'><button onClick={handleClick}>Contact</button></span>
                     </div>
-                    <div className='about-skills'>
-                        <h1>My Skills</h1>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JAVASCRIPT</li>
-                            <li>REACT</li>
-                            <li>MongoDb</li>
-                            <li>RESPONSIVE DESIGN</li>
-                            <li>Operating System</li>
-                            <li>Window Diagnostic</li>
-                            <li>C/C++</li>
-                        </ul>
+                    <div className='about-center'>
+                        <div className='about-skills'>
+                            <h1>My Skills</h1>
+                            <div className='skills-center'>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JAVASCRIPT</li>
+                                    <li>REACT</li>
+                                    <li>MongoDb</li>
+                                    <li>RESPONSIVE DESIGN</li>
+                                    <li>Operating System</li>
+                                    <li>Window Diagnostic</li>
+                                    <li>C/C++</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
